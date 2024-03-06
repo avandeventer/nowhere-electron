@@ -1,0 +1,40 @@
+{
+  "name": "nowhere",
+  "version": "1.0.0",
+  "description": "The desktop client for a choose your own adventure multiplayer game.",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avandeventer/nowhere-electron.git"
+  },
+  "keywords": [
+    "cyoa",
+    "choose",
+    "adventure"
+  ],
+  "author": "Andy Van Deventer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avandeventer/nowhere-electron/issues"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.3.0",
+    "@electron-forge/maker-deb": "^7.3.0",
+    "@electron-forge/maker-rpm": "^7.3.0",
+    "@electron-forge/maker-squirrel": "^7.3.0",
+    "@electron-forge/maker-zip": "^7.3.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.3.0",
+    "@electron-forge/plugin-fuses": "^7.3.0",
+    "electron": "^29.1.0"
+  },
+  "homepage": "https://github.com/avandeventer/nowhere-electron#readme",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
